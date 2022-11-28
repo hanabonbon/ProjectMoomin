@@ -12,6 +12,17 @@
     </script>
 </head>
 <body>
+    <div id="app">
+        <h2>Vue.jsテスト</h2>
+        <button
+            @click="increment"
+        >+1</button>
+        <button
+            @click="decrement"
+        >-1</button>
+        <p>{{ count }}</p>
+    </div>
+
     <article class="wrap">
 
         <section class="date">
@@ -42,5 +53,8 @@
             <button>設定</button>
         </section>
     </article>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="./script/script.js"></script>
 </body>
 </html>
